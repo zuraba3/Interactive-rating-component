@@ -1,0 +1,14 @@
+{
+  "name": "interactive-rating-component",
+  "version": "1.0.0",
+  "description": "Interactive rating component project",
+  "main": "app.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Zura",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
