@@ -81,6 +81,12 @@ body {
       color: $pure-white;
       cursor: pointer;
     }
+
+    &:active {
+      background-color: #fc7614;
+      color: white;
+      transform: scale(0.97);
+    }
   }
 
   &__button {
@@ -104,6 +110,10 @@ body {
     &:hover {
       background-color: $pure-white;
       color: $orange;
+    }
+
+    &:active {
+      transform: scale(0.97);
     }
   }
 }

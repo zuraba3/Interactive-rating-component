@@ -55,6 +55,10 @@ body {
       background: #7c8798;
       color: #ffffff;
       cursor: pointer; }
+    .container__buttons:active {
+      background-color: #fc7614;
+      color: white;
+      transform: scale(0.97); }
   .container__button {
     width: 27.9rem;
     height: 4.5rem;
@@ -75,6 +79,8 @@ body {
     .container__button:hover {
       background-color: #ffffff;
       color: #fc7614; }
+    .container__button:active {
+      transform: scale(0.97); }
 
 .image {
   width: 1.4rem;
